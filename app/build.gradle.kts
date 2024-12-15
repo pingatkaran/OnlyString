@@ -59,7 +59,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-//    implementation(project(":returnstring"))
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -68,5 +68,10 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    // This Library is to be called locally
+    //    implementation(project(":returnstring"))
+
+    //This one is Deployed on Jitpack.io
+    //Check this on https://jitpack.io/#pingatkaran/OnlyString
     implementation(libs.onlystring)
 }

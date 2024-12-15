@@ -63,6 +63,6 @@ fun MyButton(modifier: Modifier = Modifier) {
         // Handle click event
         Toast.makeText(context, str, Toast.LENGTH_SHORT).show()
     }) {
-        Text(text = "Click Me")
+        Text(text = "open sdk")
     }
 }

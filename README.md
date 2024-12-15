@@ -12,5 +12,5 @@ Add the following dependency to your `build.gradle` file:
 
 ```gradle
 dependencies {
-    implementation 'com.app.returnstring:StringExt:1.0.0'
+    implementation implementation 'com.github.pingatkaran:OnlyString:1.0.0'
 }

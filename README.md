@@ -16,4 +16,4 @@ dependencies {
 }
 
 
-[Watch Demo Video](./output.mp4)
+[Watch the Demo Video](./output.mp4)

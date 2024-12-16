@@ -14,7 +14,7 @@ Add the following dependency to your `build.gradle` file:
 dependencies {
     implementation implementation 'com.github.pingatkaran:OnlyString:1.0.0'
 }
-
+```
 
 
 
